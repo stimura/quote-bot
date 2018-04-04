@@ -10,7 +10,7 @@ access_token = access_token
 access_token_secret = access_token_secret
 
 # Quotes to Tweet
-quote_list = [“Quote 1”, “Quote 2", “Quote 3”]
+quote_list = ["Quote 1", "Quote 2", "Quote 3"]
 
 # Create function for tweeting
 def QuoteItUp(quote_num):
@@ -24,7 +24,7 @@ def QuoteItUp(quote_num):
    api.update_status(quote_list[quote_num])
 
    # Print success message
-   print(“Tweeted successfully!“)
+   print("Tweeted successfully!")
    
 # Set timer to run every minute
 counter = 0
